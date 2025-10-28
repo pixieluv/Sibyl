@@ -5,7 +5,7 @@
 
 This repository contains the Minimum Viable Product (MVP) for the **FinOps Command Center**, an internal platform designed to bring clarity, attribution, and basic compliance monitoring to cloud spending. This initial version focuses solely on establishing core visibility – answering the fundamental questions: "Who is spending what?" and "Are our resources tagged correctly?"
 
-This MVP is the first step towards the larger vision outlined in the [Full Project Blueprint]((./project-blueprint.md)
+This MVP is the first step towards the larger vision outlined in the [Full Project Blueprint](./project-blueprint.md)
 
 ## **MVP Scope: The "Visibility Engine"**
 
