@@ -106,7 +106,7 @@ finops-command-center/
 ## **Database Schema (PostgreSQL)**
 
 *(High-level overview. See backend/models/ and backend/alembic/ for detailed definitions and migration scripts.)*
-
+```
 \-- Pillar 2: Organization Hierarchy  
 CREATE TABLE business\_groups (  
     id SERIAL PRIMARY KEY,  
@@ -261,6 +261,7 @@ CREATE TABLE untagged\_resources (
 \-- Add indexes on scan\_id, monthly\_cost  
 CREATE INDEX idx\_untagged\_resources\_scan ON untagged\_resources(scan\_id);  
 CREATE INDEX idx\_untagged\_resources\_cost ON untagged\_resources(monthly\_cost DESC);
+```
 
 ## **Key Backend Components (MVP Focus)**
 
